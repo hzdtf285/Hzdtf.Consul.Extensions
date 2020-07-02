@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Hzdtf.Consul.Extensions.AspNet.Core</name>
+    </assembly>
+    <members>
+        <member name="T:Hzdtf.Consul.Extensions.AspNet.Core.ConsulExtensions">
+            <summary>
+            Consul扩展类
+            @ 黄振东
+            </summary>
+        </member>
+        <member name="M:Hzdtf.Consul.Extensions.AspNet.Core.ConsulExtensions.AddBasicConsul(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String)">
+            <summary>
+            添加基本Consul
+            </summary>
+            <param name="services">服务</param>
+            <param name="configJsonFilePath">配置JSON文件路径。如果传入为null，则默认为Config/consulConfig.json</param>
+            <returns>服务</returns>
+        </member>
+        <member name="T:Hzdtf.Consul.Extensions.AspNet.Core.ConsulRegisterExtensions">
+            <summary>
+            Consul注册扩展类
+            @ 黄振东
+            </summary>
+        </member>
+        <member name="M:Hzdtf.Consul.Extensions.AspNet.Core.ConsulRegisterExtensions.AddConsul(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String)">
+            <summary>
+            添加Consul
+            </summary>
+            <param name="services">服务</param>
+            <param name="configJsonFilePath">配置JSON文件路径。如果传入为null，则默认为Config/consulConfig.json</param>
+            <returns>服务</returns>
+        </member>
+        <member name="M:Hzdtf.Consul.Extensions.AspNet.Core.ConsulRegisterExtensions.UseConsul(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            使用Consul
+            </summary>
+            <param name="app">应用生成器</param>
+            <returns>应用生成器</returns>
+        </member>
+    </members>
+</doc>

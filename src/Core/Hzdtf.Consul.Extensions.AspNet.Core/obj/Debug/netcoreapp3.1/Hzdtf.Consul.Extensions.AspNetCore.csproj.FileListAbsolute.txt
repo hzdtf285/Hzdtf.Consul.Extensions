@@ -1,0 +1,16 @@
+C:\AndyData\MyProject\Hzdtf.Consul.Extensions\Hzdtf.Consul.Extensions.AspNetCore\bin\Debug\netcoreapp3.1\Hzdtf.Consul.Extensions.AspNetCore.deps.json
+C:\AndyData\MyProject\Hzdtf.Consul.Extensions\Hzdtf.Consul.Extensions.AspNetCore\bin\Debug\netcoreapp3.1\Hzdtf.Consul.Extensions.AspNetCore.dll
+C:\AndyData\MyProject\Hzdtf.Consul.Extensions\Hzdtf.Consul.Extensions.AspNetCore\bin\Debug\netcoreapp3.1\Hzdtf.Consul.Extensions.Common.Standard.dll
+C:\AndyData\MyProject\Hzdtf.Consul.Extensions\Hzdtf.Consul.Extensions.AspNetCore\bin\Debug\netcoreapp3.1\Hzdtf.Utility.Standard.dll
+C:\AndyData\MyProject\Hzdtf.Consul.Extensions\Hzdtf.Consul.Extensions.AspNetCore\bin\Debug\netcoreapp3.1\Hzdtf.Consul.Extensions.Common.Standard.pdb
+C:\AndyData\MyProject\Hzdtf.Consul.Extensions\Hzdtf.Consul.Extensions.AspNetCore\bin\Debug\netcoreapp3.1\Hzdtf.Utility.Standard.pdb
+C:\AndyData\MyProject\Hzdtf.Consul.Extensions\Hzdtf.Consul.Extensions.AspNetCore\bin\Debug\netcoreapp3.1\Hzdtf.Utility.Standard.xml
+C:\AndyData\MyProject\Hzdtf.Consul.Extensions\Hzdtf.Consul.Extensions.AspNetCore\obj\Debug\netcoreapp3.1\Hzdtf.Consul.Extensions.AspNetCore.csprojAssemblyReference.cache
+C:\AndyData\MyProject\Hzdtf.Consul.Extensions\Hzdtf.Consul.Extensions.AspNetCore\obj\Debug\netcoreapp3.1\Hzdtf.Consul.Extensions.AspNetCore.AssemblyInfoInputs.cache
+C:\AndyData\MyProject\Hzdtf.Consul.Extensions\Hzdtf.Consul.Extensions.AspNetCore\obj\Debug\netcoreapp3.1\Hzdtf.Consul.Extensions.AspNetCore.AssemblyInfo.cs
+C:\AndyData\MyProject\Hzdtf.Consul.Extensions\Hzdtf.Consul.Extensions.AspNetCore\obj\Debug\netcoreapp3.1\Hzdtf.Consul.Extensions.AspNetCore.csproj.CopyComplete
+C:\AndyData\MyProject\Hzdtf.Consul.Extensions\Hzdtf.Consul.Extensions.AspNetCore\bin\Debug\netcoreapp3.1\Hzdtf.Consul.Extensions.AspNetCore.pdb
+C:\AndyData\MyProject\Hzdtf.Consul.Extensions\Hzdtf.Consul.Extensions.AspNetCore\obj\Debug\netcoreapp3.1\Hzdtf.Consul.Extensions.AspNetCore.csproj.CoreCompileInputs.cache
+C:\AndyData\MyProject\Hzdtf.Consul.Extensions\Hzdtf.Consul.Extensions.AspNetCore\obj\Debug\netcoreapp3.1\Hzdtf.Consul.Extensions.AspNetCore.dll
+C:\AndyData\MyProject\Hzdtf.Consul.Extensions\Hzdtf.Consul.Extensions.AspNetCore\obj\Debug\netcoreapp3.1\Hzdtf.Consul.Extensions.AspNetCore.pdb
+C:\AndyData\MyProject\Hzdtf.Consul.Extensions\Hzdtf.Consul.Extensions.AspNetCore\bin\Debug\netcoreapp3.1\Hzdtf.Consul.Extensions.AspNetCore.xml

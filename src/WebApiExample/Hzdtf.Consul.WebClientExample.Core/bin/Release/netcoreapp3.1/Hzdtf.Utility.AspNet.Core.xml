@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Hzdtf.Utility.AspNet.Core</name>
+    </assembly>
+    <members>
+        <member name="T:Hzdtf.Utility.AspNet.Core.LoadBalance.HashIpPortLoadBalanceExtensions">
+            <summary>
+            哈希+IP负载均衡扩展类
+            @ 黄振东
+            </summary>
+        </member>
+        <member name="F:Hzdtf.Utility.AspNet.Core.LoadBalance.HashIpPortLoadBalanceExtensions.localPort">
+            <summary>
+            本地端口
+            </summary>
+        </member>
+        <member name="M:Hzdtf.Utility.AspNet.Core.LoadBalance.HashIpPortLoadBalanceExtensions.AddHashIpPortLoadBalance(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            添加哈希+IP负载均衡
+            </summary>
+            <param name="services">服务</param>
+            <returns>服务</returns>
+        </member>
+        <member name="M:Hzdtf.Utility.AspNet.Core.LoadBalance.HashIpPortLoadBalanceExtensions.UseHashIpPortLoadBalance(Microsoft.AspNetCore.Builder.IApplicationBuilder,System.Int32)">
+            <summary>
+            使用哈希+IP负载均衡
+            </summary>
+            <param name="app">应用生成器</param>
+            <param name="port">端口</param>
+            <returns>应用生成器</returns>
+        </member>
+        <member name="T:Hzdtf.Utility.AspNet.Core.RemoteService.UnityServicesBuilderCacheExtensions">
+            <summary>
+            统一服务生成器缓存扩展类
+            @ 黄振东
+            </summary>
+        </member>
+        <member name="M:Hzdtf.Utility.AspNet.Core.RemoteService.UnityServicesBuilderCacheExtensions.AddUnityServicesBuilderCache(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String)">
+            <summary>
+            添加统一服务生成器缓存
+            </summary>
+            <param name="services">服务</param>
+            <param name="unityServicesOptionsJsonFile">统一服务选项配置JSON文件</param>
+            <returns>服务</returns>
+        </member>
+        <member name="M:Hzdtf.Utility.AspNet.Core.RemoteService.UnityServicesBuilderCacheExtensions.UseUnityServicesBuilderCache(Microsoft.AspNetCore.Builder.IApplicationBuilder,System.Action{Hzdtf.Utility.Standard.RemoteService.UnityServicesOptions})">
+            <summary>
+            使用统一服务生成器缓存
+            </summary>
+            <param name="app">应用</param>
+            <param name="config">配置</param>
+            <returns>应用</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Hzdtf.Consul.Extensions.GRpc.Core</name>
+    </assembly>
+    <members>
+        <member name="T:Hzdtf.Consul.Extensions.GRpc.Core.ConsulGRpcRegisterExtensions">
+            <summary>
+            ConsulGRpc注册扩展类
+            @ 黄振东
+            </summary>
+        </member>
+        <member name="F:Hzdtf.Consul.Extensions.GRpc.Core.ConsulGRpcRegisterExtensions.consulBuilder">
+            <summary>
+            Consul生成器
+            </summary>
+        </member>
+        <member name="M:Hzdtf.Consul.Extensions.GRpc.Core.ConsulGRpcRegisterExtensions.AddGRpcRegisterConsul(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String)">
+            <summary>
+            添加GRpc注册Consul
+            </summary>
+            <param name="services">服务</param>
+            <param name="configJsonFilePath">配置JSON文件路径。如果传入为null，则默认为Config/consulConfig.json</param>
+            <returns>服务</returns>
+        </member>
+        <member name="M:Hzdtf.Consul.Extensions.GRpc.Core.ConsulGRpcRegisterExtensions.UseGRpcRegisterConsul(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            使用GRpc注册Consul
+            </summary>
+            <param name="app">应用生成器</param>
+            <returns>应用生成器</returns>
+        </member>
+        <member name="M:Hzdtf.Consul.Extensions.GRpc.Core.ConsulGRpcRegisterExtensions.UseGRpcRoute(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder)">
+            <summary>
+            使用GRpc路由
+            </summary>
+            <param name="endpoints">终结点路由生成器</param>
+            <returns>终结点路由生成器</returns>
+        </member>
+        <member name="T:Hzdtf.Consul.Extensions.GRpc.Core.Services.HealthCheckService">
+            <summary>
+            健康检查服务
+            @ 黄振东
+            </summary>
+        </member>
+        <member name="M:Hzdtf.Consul.Extensions.GRpc.Core.Services.HealthCheckService.Check(Grpc.Health.V1.HealthCheckRequest,Grpc.Core.ServerCallContext)">
+            <summary>
+            检测
+            </summary>
+            <param name="request">健康检测请求</param>
+            <param name="context">服务调用上下文</param>
+            <returns>健康检测响应任务</returns>
+        </member>
+        <member name="M:Hzdtf.Consul.Extensions.GRpc.Core.Services.HealthCheckService.Watch(Grpc.Health.V1.HealthCheckRequest,Grpc.Core.IServerStreamWriter{Grpc.Health.V1.HealthCheckResponse},Grpc.Core.ServerCallContext)">
+            <summary>
+            监控
+            </summary>
+            <param name="request">健康检测请求</param>
+            <param name="responseStream">响应流</param>
+            <param name="context">服务调用上下文</param>
+            <returns>任务</returns>
+        </member>
+        <member name="T:Grpc.Health.V1.HealthCheckReflection">
+            <summary>Holder for reflection information generated from Protos/HealthCheck.proto</summary>
+        </member>
+        <member name="P:Grpc.Health.V1.HealthCheckReflection.Descriptor">
+            <summary>File descriptor for Protos/HealthCheck.proto</summary>
+        </member>
+        <member name="F:Grpc.Health.V1.HealthCheckRequest.ServiceFieldNumber">
+            <summary>Field number for the "service" field.</summary>
+        </member>
+        <member name="F:Grpc.Health.V1.HealthCheckResponse.StatusFieldNumber">
+            <summary>Field number for the "status" field.</summary>
+        </member>
+        <member name="T:Grpc.Health.V1.HealthCheckResponse.Types">
+            <summary>Container for nested types declared in the HealthCheckResponse message type.</summary>
+        </member>
+        <member name="P:Grpc.Health.V1.Health.Descriptor">
+            <summary>Service descriptor</summary>
+        </member>
+        <member name="T:Grpc.Health.V1.Health.HealthBase">
+            <summary>Base class for server-side implementations of Health</summary>
+        </member>
+        <member name="M:Grpc.Health.V1.Health.BindService(Grpc.Health.V1.Health.HealthBase)">
+            <summary>Creates service definition that can be registered with a server</summary>
+            <param name="serviceImpl">An object implementing the server-side handling logic.</param>
+        </member>
+        <member name="M:Grpc.Health.V1.Health.BindService(Grpc.Core.ServiceBinderBase,Grpc.Health.V1.Health.HealthBase)">
+            <summary>Register service method with a service binder with or without implementation. Useful when customizing the  service binding logic.
+            Note: this method is part of an experimental API that can change or be removed without any prior notice.</summary>
+            <param name="serviceBinder">Service methods will be bound by calling <c>AddMethod</c> on this object.</param>
+            <param name="serviceImpl">An object implementing the server-side handling logic.</param>
+        </member>
+    </members>
+</doc>

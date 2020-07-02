@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Config\serviceBuilderConfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Config\serviceBuilderConfig.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\Hzdtf.Consul.Extensions.AspNet.Core\Hzdtf.Consul.Extensions.AspNet.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Hzdtf.Utility.AspNet.Core">
+      <HintPath>..\..\Library\Hzdtf.Utility.AspNet.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Hzdtf.Utility.Standard">
+      <HintPath>..\..\Library\Hzdtf.Utility.Standard.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+
+</Project>

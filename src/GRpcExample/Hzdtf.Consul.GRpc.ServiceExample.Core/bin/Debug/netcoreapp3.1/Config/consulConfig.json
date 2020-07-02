@@ -1,0 +1,7 @@
+{
+  "ConsulAddress": "http://127.0.0.1:8500",
+  "ServiceName": "GRpcServiceExampleA",
+  "Tags": [
+    "A1", "A2"
+  ]
+}
