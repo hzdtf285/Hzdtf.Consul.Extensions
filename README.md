@@ -94,7 +94,7 @@ consulConfig.json详解：
   "ConsulAddress": "http://127.0.0.1:8500", // consul地址
   "CacheExpire": 5, // 获取consul服务地址列表存储到的缓存过期时间，单位秒，过期后再从consul获取。不配置默认为5秒
   "ServiceName": "service1", // 本应用的服务名
-  "Datacenter" "dc1, // consul数据中心，不配置默认为dc1
+  "Datacenter" "dc1", // consul数据中心，不配置默认为dc1
   "ServiceAddress": "http://localhost:5000", // 本应用的服务地址，不配置默认取服务器的IP+监听端口
   "Tags": [],  // 服务的标签
   "ServiceCheck": {  // 服务健康检测对象
