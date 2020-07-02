@@ -81,14 +81,21 @@ namespace Hzdtf.Consul.Extensions.Common.Standard
         public async Task<string[]> GetAddresses(string serviceName, string tag = null)
         {
             var queryResult = await consulClient.Health.Service(serviceName, tag, true);
-            var addresses = new string[queryResult.Response.Length];
-            for (var i = 0; i < addresses.Length; i++)
+            var addresses = new List<string>(queryResult.Response.Length);
+            for (var i = 0; i < queryResult.Response.Length; i++)
             {
                 var res = queryResult.Response[i];
-                addresses[i] = $"{res.Service.Address}:{res.Service.Port}";
+                var add = $"{res.Service.Address}:{res.Service.Port}";
+                // 去掉重复的地址
+                if (addresses.Contains(add))
+                {
+                    continue;
+                }
+
+                addresses.Add(add);
             }
 
-            return addresses;
+            return addresses.ToArray();
         }
 
         #endregion
