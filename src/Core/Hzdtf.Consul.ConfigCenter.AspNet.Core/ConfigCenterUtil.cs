@@ -15,16 +15,16 @@ namespace Hzdtf.Consul.ConfigCenter.AspNet.Core
         /// 获取键路径，以/分隔
         /// </summary>
         /// <param name="key">键</param>
-        /// <param name="applicationName">应用程序名称，如果为空，则默认取UtilTool.CurrApplicationName</param>
+        /// <param name="serviceName">服务名，如果为空，则默认取UtilTool.AppServiceName</param>
         /// <returns>键路径</returns>
-        public static string GetKeyPath(string key, string applicationName = null)
+        public static string GetKeyPath(string key, string serviceName = null)
         {
-            if (string.IsNullOrWhiteSpace(applicationName))
+            if (string.IsNullOrWhiteSpace(serviceName))
             {
-                applicationName = UtilTool.CurrApplicationName;
+                serviceName = UtilTool.AppServiceName;
             }
 
-            return string.IsNullOrWhiteSpace(applicationName) ? key : $"{applicationName}/{key}";
+            return string.IsNullOrWhiteSpace(serviceName) ? key : $"{serviceName}/{key}";
         }
     }
 }

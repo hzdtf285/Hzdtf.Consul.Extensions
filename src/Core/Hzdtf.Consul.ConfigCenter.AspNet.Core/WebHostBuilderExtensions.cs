@@ -71,6 +71,7 @@ namespace Hzdtf.Consul.ConfigCenter.AspNet.Core
                 }
 
                 var envi = hostingContext.HostingEnvironment;
+                UtilTool.CurrServiceName = configOptions.ServiceName;
                 UtilTool.CurrApplicationName = envi.ApplicationName;
 
                 var defaultKey = new List<string>();
