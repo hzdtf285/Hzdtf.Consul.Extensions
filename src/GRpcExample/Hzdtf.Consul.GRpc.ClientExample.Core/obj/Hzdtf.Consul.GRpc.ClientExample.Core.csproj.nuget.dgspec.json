@@ -44,15 +44,15 @@
           "dependencies": {
             "Consul": {
               "target": "Package",
-              "version": "[0.7.2.6, )"
+              "version": "[1.6.1.1, )"
             },
             "MessagePack": {
               "target": "Package",
-              "version": "[1.7.3.7, )"
+              "version": "[2.1.152, )"
             },
             "Microsoft.Extensions.Caching.Memory": {
               "target": "Package",
-              "version": "[3.1.3, )"
+              "version": "[3.1.5, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",

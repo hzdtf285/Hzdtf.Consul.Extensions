@@ -29,9 +29,9 @@ namespace Hzdtf.Consul.ServiceExample.Core
             services.AddControllers();
 
             services.AddRegisterConsul();
-            //services.AddDiscoveryConsul();
+            services.AddDiscoveryConsul(); // 如果本程序要使用发现服务，调用其他服务，则应开启此方法，否则应该屏蔽
 
-            services.AddDiscoveryConsulConfigCenter();
+            //services.AddDiscoveryConsulConfigCenter();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -21,7 +21,7 @@ namespace Hzdtf.Consul.ClientExample.Core
             {
                 for (var i = 0; i < 20; i++)
                 {
-                    var url = unityServicesBuilder.BuilderAsync("ServiceExampleA", "/Health").Result;
+                    var url = unityServicesBuilder.BuilderAsync("ServiceExampleA", "/Health", "M1").Result;
                     var content = httpClient.GetStringAsync(url).Result;
 
                     Console.WriteLine($"第{i}次请求[{url}]:{content}");
@@ -29,7 +29,7 @@ namespace Hzdtf.Consul.ClientExample.Core
                     Thread.Sleep(1000);
                 }
             }
-
+             
             Console.ReadLine();
         }
     }

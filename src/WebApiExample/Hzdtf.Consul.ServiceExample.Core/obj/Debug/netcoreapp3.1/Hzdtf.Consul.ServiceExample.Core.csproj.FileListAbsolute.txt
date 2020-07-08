@@ -203,8 +203,6 @@ C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\WebApiExample\Hzdtf.Consul.Ser
 C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\WebApiExample\Hzdtf.Consul.ServiceExample.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\WebApiExample\Hzdtf.Consul.ServiceExample.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\WebApiExample\Hzdtf.Consul.ServiceExample.Core\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\WebApiExample\Hzdtf.Consul.ServiceExample.Core\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netstandard1.3\System.Net.Http.WinHttpHandler.dll
-C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\WebApiExample\Hzdtf.Consul.ServiceExample.Core\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard1.3\System.Net.Http.WinHttpHandler.dll
 C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\WebApiExample\Hzdtf.Consul.ServiceExample.Core\bin\Debug\netcoreapp3.1\Hzdtf.Consul.Extensions.AspNet.Core.dll
 C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\WebApiExample\Hzdtf.Consul.ServiceExample.Core\bin\Debug\netcoreapp3.1\Hzdtf.Consul.Extensions.Common.Standard.dll
 C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\WebApiExample\Hzdtf.Consul.ServiceExample.Core\bin\Debug\netcoreapp3.1\Hzdtf.Utility.Standard.dll
@@ -240,3 +238,5 @@ C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\WebApiExample\Hzdtf.Consul.Ser
 C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\WebApiExample\Hzdtf.Consul.ServiceExample.Core\bin\Debug\netcoreapp3.1\Hzdtf.Consul.Extensions.Common.Standard.xml
 C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\WebApiExample\Hzdtf.Consul.ServiceExample.Core\bin\Debug\netcoreapp3.1\Config\serviceBuilderConfig.json
 C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\WebApiExample\Hzdtf.Consul.ServiceExample.Core\bin\Debug\netcoreapp3.1\MessagePack.dll
+C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\WebApiExample\Hzdtf.Consul.ServiceExample.Core\bin\Debug\netcoreapp3.1\MessagePack.Annotations.dll
+C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\WebApiExample\Hzdtf.Consul.ServiceExample.Core\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll

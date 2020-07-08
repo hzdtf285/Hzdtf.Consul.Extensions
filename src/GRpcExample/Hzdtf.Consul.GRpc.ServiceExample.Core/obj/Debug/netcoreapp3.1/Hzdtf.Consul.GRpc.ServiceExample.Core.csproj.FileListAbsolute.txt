@@ -73,8 +73,6 @@ C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\GRpcExample\Hzdtf.Consul.GRpc.
 C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\GRpcExample\Hzdtf.Consul.GRpc.ServiceExample.Core\bin\Debug\netcoreapp3.1\NConsul.dll
 C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\GRpcExample\Hzdtf.Consul.GRpc.ServiceExample.Core\bin\Debug\netcoreapp3.1\NConsul.AspNetCore.dll
 C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\GRpcExample\Hzdtf.Consul.GRpc.ServiceExample.Core\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\GRpcExample\Hzdtf.Consul.GRpc.ServiceExample.Core\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netstandard1.3\System.Net.Http.WinHttpHandler.dll
-C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\GRpcExample\Hzdtf.Consul.GRpc.ServiceExample.Core\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard1.3\System.Net.Http.WinHttpHandler.dll
 C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\GRpcExample\Hzdtf.Consul.GRpc.ServiceExample.Core\bin\Debug\netcoreapp3.1\Hzdtf.Consul.Extensions.Common.Standard.dll
 C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\GRpcExample\Hzdtf.Consul.GRpc.ServiceExample.Core\bin\Debug\netcoreapp3.1\Hzdtf.Consul.Extensions.GRpc.Core.dll
 C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\GRpcExample\Hzdtf.Consul.GRpc.ServiceExample.Core\bin\Debug\netcoreapp3.1\Hzdtf.Utility.Standard.dll
@@ -122,3 +120,5 @@ C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\GRpcExample\Hzdtf.Consul.GRpc.
 C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\GRpcExample\Hzdtf.Consul.GRpc.ServiceExample.Core\bin\Debug\netcoreapp3.1\Hzdtf.Platform.Contract.Standard.pdb
 C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\GRpcExample\Hzdtf.Consul.GRpc.ServiceExample.Core\bin\Debug\netcoreapp3.1\Hzdtf.Platform.Contract.Standard.xml
 C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\GRpcExample\Hzdtf.Consul.GRpc.ServiceExample.Core\bin\Debug\netcoreapp3.1\MessagePack.dll
+C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\GRpcExample\Hzdtf.Consul.GRpc.ServiceExample.Core\bin\Debug\netcoreapp3.1\MessagePack.Annotations.dll
+C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\GRpcExample\Hzdtf.Consul.GRpc.ServiceExample.Core\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll

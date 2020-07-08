@@ -4,6 +4,22 @@
         <name>Hzdtf.Utility.AspNet.Core</name>
     </assembly>
     <members>
+        <member name="T:Hzdtf.Utility.AspNet.Core.Config.ConfigSourceType">
+            <summary>
+            配置来源类型
+            @ 黄振东
+            </summary>
+        </member>
+        <member name="F:Hzdtf.Utility.AspNet.Core.Config.ConfigSourceType.JSON_FILE">
+            <summary>
+            JSON文件
+            </summary>
+        </member>
+        <member name="F:Hzdtf.Utility.AspNet.Core.Config.ConfigSourceType.MICROSOFT_CONFIGURATION">
+            <summary>
+            微软配置
+            </summary>
+        </member>
         <member name="T:Hzdtf.Utility.AspNet.Core.Config.JsonFileMicrosoftConfigurationBase`1">
             <summary>
             Json文件微软配置基类

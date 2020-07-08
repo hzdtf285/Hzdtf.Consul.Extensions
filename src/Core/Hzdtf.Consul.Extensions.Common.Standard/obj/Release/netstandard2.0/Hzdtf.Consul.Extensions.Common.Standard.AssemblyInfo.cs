@@ -11,8 +11,9 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Hzdtf.Consul.Extensions.Common.Standard")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Hzdtf")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("Consul扩展公共类库，运行在.net standard 2.0以上")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Hzdtf.Consul.Extensions.Common.Standard")]

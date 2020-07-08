@@ -48,18 +48,16 @@ namespace Hzdtf.Consul.ConfigCenter.AspNet.Core
                 services.AddBasicConsul(unityConsulOptions.ConsulBasicOptionJsonFile);
             }
 
-            string jsonFile = null;
             services.AddUnityServicesBuilderConfigure(builder =>
             {
                 if (unityConsulOptions.UnityServicesOptionsJsonFile != null)
                 {
                     builder.ServiceBuilderConfigJsonFile = unityConsulOptions.UnityServicesOptionsJsonFile;
                 }
-                jsonFile = builder.ServiceBuilderConfigJsonFile;
                 builder.ServiceProvider = new ConsulServicesProviderMemory();
-            }, builder =>
+            }, (builder, file, data) =>
             {
-                if (string.IsNullOrWhiteSpace(jsonFile))
+                if (string.IsNullOrWhiteSpace(file))
                 {
                     return;
                 }
@@ -83,7 +81,7 @@ namespace Hzdtf.Consul.ConfigCenter.AspNet.Core
                         op.FillFrom(unityConsulOptions.ConsulBasicOption);
                     }
 
-                    var key = ConfigCenterUtil.GetKeyPath(jsonFile, op.ServiceName);
+                    var key = ConfigCenterUtil.GetKeyPath(file, op.ServiceName);
                     op.Keys.Add(key);
                 });
             });

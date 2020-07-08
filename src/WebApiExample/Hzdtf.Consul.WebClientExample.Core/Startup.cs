@@ -11,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Hzdtf.Consul.Extensions.AspNet.Core;
+using Hzdtf.Consul.ConfigCenter.AspNet.Core;
 
 namespace Hzdtf.Consul.WebClientExample.Core
 {
@@ -28,7 +29,8 @@ namespace Hzdtf.Consul.WebClientExample.Core
         {
             services.AddControllers();
 
-            services.AddDiscoveryConsul();
+            // services.AddDiscoveryConsul();
+            services.AddDiscoveryConsulConfigCenter();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

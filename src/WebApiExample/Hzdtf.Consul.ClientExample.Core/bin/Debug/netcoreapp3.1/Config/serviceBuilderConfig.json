@@ -1,7 +1,8 @@
 {
   "Services": [
     {
-      "ServiceName": "ServiceExampleA"
+      "ServiceName": "ServiceExampleA",
+      "tag": "M1"
     }
   ],
   "GlobalConfiguration": {

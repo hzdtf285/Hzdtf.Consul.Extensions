@@ -10,9 +10,19 @@
             @ 黄振东
             </summary>
         </member>
+        <member name="P:Hzdtf.Consul.Extensions.Common.Standard.ConsulBasicOption.ServiceName">
+            <summary>
+            服务名
+            </summary>
+        </member>
         <member name="P:Hzdtf.Consul.Extensions.Common.Standard.ConsulBasicOption.ConsulAddress">
             <summary>
             Consul地址
+            </summary>
+        </member>
+        <member name="P:Hzdtf.Consul.Extensions.Common.Standard.ConsulBasicOption.Datacenter">
+            <summary>
+            数据中心，默认是dc1
             </summary>
         </member>
         <member name="P:Hzdtf.Consul.Extensions.Common.Standard.ConsulBasicOption.CacheExpire">
@@ -29,11 +39,6 @@
         <member name="P:Hzdtf.Consul.Extensions.Common.Standard.ConsulOptions.ServiceId">
             <summary>
             服务ID（唯一）
-            </summary>
-        </member>
-        <member name="P:Hzdtf.Consul.Extensions.Common.Standard.ConsulOptions.ServiceName">
-            <summary>
-            服务名
             </summary>
         </member>
         <member name="P:Hzdtf.Consul.Extensions.Common.Standard.ConsulOptions.ServiceAddress">
@@ -89,7 +94,7 @@
             <param name="optionsJsonFile">选项配置JSON文件</param>
             <param name="getLocalServiceAddress">回调获取本地服务地址</param>
             <param name="config">回调选项配置</param>
-            <returns>Consul客户端，注意：应用程序停止时需要反注册服务：consulClient.Agent.ServiceDeregister(options.ServiceId)</returns>
+            <returns>Consul客户端</returns>
         </member>
         <member name="M:Hzdtf.Consul.Extensions.Common.Standard.ConsulRegisterUtil.CreateConsulClientRegister(Hzdtf.Consul.Extensions.Common.Standard.ConsulOptions,System.Func{System.String})">
             <summary>
@@ -97,7 +102,7 @@
             </summary>
             <param name="options">选项配置</param>
             <param name="getLocalServiceAddress">回调获取本地服务地址</param>
-            <returns>Consul客户端，注意：应用程序停止时需要反注册服务：consulClient.Agent.ServiceDeregister(options.ServiceId)</returns>
+            <returns>Consul客户端</returns>
         </member>
         <member name="T:Hzdtf.Consul.Extensions.Common.Standard.ConsulServicesProvider">
             <summary>
@@ -126,18 +131,6 @@
             构造方法
             </summary>
             <param name="options">选项配置</param>
-        </member>
-        <member name="M:Hzdtf.Consul.Extensions.Common.Standard.ConsulServicesProvider.#ctor(System.String)">
-            <summary>
-            构造方法
-            </summary>
-            <param name="consulUrl">Consul Url</param>
-        </member>
-        <member name="M:Hzdtf.Consul.Extensions.Common.Standard.ConsulServicesProvider.#ctor(System.Uri)">
-            <summary>
-            构造方法
-            </summary>
-            <param name="consulUri">Consul Uri</param>
         </member>
         <member name="M:Hzdtf.Consul.Extensions.Common.Standard.ConsulServicesProvider.GetAddresses(System.String,System.String)">
             <summary>

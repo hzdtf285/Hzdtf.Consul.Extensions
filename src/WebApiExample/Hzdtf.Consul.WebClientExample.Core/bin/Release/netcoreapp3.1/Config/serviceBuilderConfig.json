@@ -2,6 +2,10 @@
   "Services": [
     {
       "ServiceName": "ServiceExampleA"
+    },
+    {
+      "ServiceName": "ServiceExampleB",
+      "LoadBalanceMode": "RANDOM"
     }
   ],
   "GlobalConfiguration": {

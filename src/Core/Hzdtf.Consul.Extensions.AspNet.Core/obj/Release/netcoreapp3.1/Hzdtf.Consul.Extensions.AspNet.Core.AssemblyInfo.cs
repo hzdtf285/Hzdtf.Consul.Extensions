@@ -11,8 +11,9 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Hzdtf.Consul.Extensions.AspNet.Core")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Hzdtf")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("Consul扩展AspNet Core类库，运行在ASP.NET Core 3.1以上")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Hzdtf.Consul.Extensions.AspNet.Core")]
