@@ -3,7 +3,7 @@ Consul扩展库，支持.NET和.NET Core平台，语言：C#。适用于微服�
 1、服务注册与发现，支持与配置中心绑定，动态更新配置信息
 2、对服务注册与发现，可选择webapi与grpc通讯方式，支持与配置中心绑定，动态更新配置信息
 
-本框架必须运行在.NET Standard 2.0、.NET Framework 4.6.1和.NET Core 3.1 以上。下载源码用Visual Studio 2019打开。
+本框架必须运行在.NET Standard 2.0、.NET Framework 4.6.1和.NET Core 3.1.5 以上。下载源码用Visual Studio 2019打开。
 工程以Standard或Std结尾是标准库，以Framework或Frm结尾为Framework库，以Core结尾为Core库。
 初始编译时会耗些时间，因为要从nuget下载包。
 本库依赖类库是：
