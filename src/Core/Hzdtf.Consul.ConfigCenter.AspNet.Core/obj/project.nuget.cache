@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "UlDJCAIgs1nJ7x+u2TpfN5Qp1z9I4/8y8IhLjllKjjbNzdxP13oAtsO3mHWvONZaJkr6JIi42gC+QEc7TTWt1w==",
+  "dgSpecHash": "iQ4VsBphJuJlCphjP3mY1FiGPL6ydbHk6fkkt5s/ZyIzLWlYIV++nxMt+yOjVT/orCTcedb8JsBDapqkSwk1RQ==",
   "success": true,
   "projectFilePath": "C:\\AndyData\\MyProject\\Hzdtf.Consul.Extensions\\src\\Core\\Hzdtf.Consul.ConfigCenter.AspNet.Core\\Hzdtf.Consul.ConfigCenter.AspNet.Core.csproj",
   "expectedPackageFiles": [

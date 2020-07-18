@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Hzdtf.Consul.Extensions.AspNet.Core</name>
+    </assembly>
+    <members>
+        <member name="T:Hzdtf.Consul.Extensions.AspNet.Core.ConsulDiscoveryExtensions">
+            <summary>
+            Consul服务发现扩展类
+            @ 黄振东
+            </summary>
+        </member>
+        <member name="M:Hzdtf.Consul.Extensions.AspNet.Core.ConsulDiscoveryExtensions.AddDiscoveryConsul(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Hzdtf.Consul.Extensions.AspNet.Core.UnityConsulOptions})">
+            <summary>
+            添加服务发现Consul
+            </summary>
+            <param name="services">服务</param>
+            <param name="options">配置回调</param>
+            <returns>服务</returns>
+        </member>
+        <member name="T:Hzdtf.Consul.Extensions.AspNet.Core.ConsulExtensions">
+            <summary>
+            Consul扩展类
+            @ 黄振东
+            </summary>
+        </member>
+        <member name="M:Hzdtf.Consul.Extensions.AspNet.Core.ConsulExtensions.AddBasicConsul(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String)">
+            <summary>
+            添加基本Consul
+            </summary>
+            <param name="services">服务</param>
+            <param name="configJsonFilePath">配置JSON文件路径。如果传入为null，则默认为Config/consulConfig.json</param>
+            <returns>服务</returns>
+        </member>
+        <member name="M:Hzdtf.Consul.Extensions.AspNet.Core.ConsulExtensions.AddBasicConsul(Microsoft.Extensions.DependencyInjection.IServiceCollection,Hzdtf.Consul.Extensions.Common.Standard.ConsulBasicOption)">
+            <summary>
+            添加基本Consul
+            </summary>
+            <param name="services">服务</param>
+            <param name="consulBasic">Consul基本配置</param>
+            <returns>服务</returns>
+        </member>
+        <member name="T:Hzdtf.Consul.Extensions.AspNet.Core.ConsulRegisterExtensions">
+            <summary>
+            Consul服务注册扩展类
+            @ 黄振东
+            </summary>
+        </member>
+        <member name="M:Hzdtf.Consul.Extensions.AspNet.Core.ConsulRegisterExtensions.AddRegisterConsul(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String)">
+            <summary>
+            添加服务注册Consul
+            </summary>
+            <param name="services">服务</param>
+            <param name="configJsonFilePath">配置JSON文件路径。如果传入为null，则默认为Config/consulConfig.json</param>
+            <returns>服务</returns>
+        </member>
+        <member name="M:Hzdtf.Consul.Extensions.AspNet.Core.ConsulRegisterExtensions.UseRegisterConsul(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            使用服务注册Consul
+            </summary>
+            <param name="app">应用生成器</param>
+            <returns>应用生成器</returns>
+        </member>
+        <member name="T:Hzdtf.Consul.Extensions.AspNet.Core.UnityConsulOptions">
+            <summary>
+            统一Consul选项配置
+            @ 黄振东
+            </summary>
+        </member>
+        <member name="P:Hzdtf.Consul.Extensions.AspNet.Core.UnityConsulOptions.UnityServicesOptionsJsonFile">
+            <summary>
+            统一服务配置Json文件
+            </summary>
+        </member>
+        <member name="P:Hzdtf.Consul.Extensions.AspNet.Core.UnityConsulOptions.ConsulBasicOption">
+            <summary>
+            Consul基本配置
+            </summary>
+        </member>
+        <member name="P:Hzdtf.Consul.Extensions.AspNet.Core.UnityConsulOptions.ConsulBasicOptionJsonFile">
+            <summary>
+            Consul基本配置Json文件
+            </summary>
+        </member>
+    </members>
+</doc>
