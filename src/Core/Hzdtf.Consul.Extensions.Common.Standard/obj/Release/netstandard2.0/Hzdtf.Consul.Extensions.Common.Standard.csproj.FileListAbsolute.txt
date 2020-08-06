@@ -25,3 +25,4 @@ C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\Core\Hzdtf.Consul.Extensions.C
 C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\Core\Hzdtf.Consul.Extensions.Common.Standard\obj\Release\netstandard2.0\Hzdtf.Consul.Extensions.Common.Standard.csproj.CopyComplete
 C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\Core\Hzdtf.Consul.Extensions.Common.Standard\obj\Release\netstandard2.0\Hzdtf.Consul.Extensions.Common.Standard.dll
 C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\Core\Hzdtf.Consul.Extensions.Common.Standard\obj\Release\netstandard2.0\Hzdtf.Consul.Extensions.Common.Standard.pdb
+C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\Core\Hzdtf.Consul.Extensions.Common.Standard\obj\Release\netstandard2.0\Hzdtf.Consul.Extensions.Common.Standard.csprojAssemblyReference.cache

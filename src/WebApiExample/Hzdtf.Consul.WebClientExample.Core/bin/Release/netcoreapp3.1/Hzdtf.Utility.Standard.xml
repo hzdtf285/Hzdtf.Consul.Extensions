@@ -5758,12 +5758,25 @@
             @ 黄振东
             </summary>
         </member>
+        <member name="F:Hzdtf.Utility.Standard.Utils.ImageUtil.helper">
+            <summary>
+            安全验证码帮助对象
+            </summary>
+        </member>
         <member name="M:Hzdtf.Utility.Standard.Utils.ImageUtil.CreateCodeImg(System.String)">
             <summary>
-             获取验证码图片流
+             创建验证码图片流（仅限于Windows平台）
              </summary>
              <param name="checkCode">验证码字符串</param>
              <returns>返回验证码图片流</returns>
+        </member>
+        <member name="M:Hzdtf.Utility.Standard.Utils.ImageUtil.CreateCrossPlatformCodeImg(System.String)">
+            <summary>
+             创建跨平台的验证码图片字节数组
+             验证图片使用的是Hei.Captcha组件，必须要把Fonts字体文件夹拷贝到站点根目录下（注意：非wwwroot下）
+             </summary>
+             <param name="checkCode">验证码字符串</param>
+             <returns>返回验证码图片字节数组</returns>
         </member>
         <member name="T:Hzdtf.Utility.Standard.Utils.JsonUtil">
             <summary>
@@ -5910,6 +5923,16 @@
             @ 黄振东
             </summary>
         </member>
+        <member name="F:Hzdtf.Utility.Standard.Utils.NumberUtil.ran">
+            <summary>
+            随机对象
+            </summary>
+        </member>
+        <member name="F:Hzdtf.Utility.Standard.Utils.NumberUtil.ascVals">
+            <summary>
+            ASC码值数组
+            </summary>
+        </member>
         <member name="M:Hzdtf.Utility.Standard.Utils.NumberUtil.FenToYuan(System.Nullable{System.Int64})">
             <summary>
             分转换为元
@@ -5930,6 +5953,13 @@
             </summary>
             <param name="length">长度</param>
             <returns>随机数字字符串</returns>
+        </member>
+        <member name="M:Hzdtf.Utility.Standard.Utils.NumberUtil.EnNumRandom(System.Int32)">
+            <summary>
+            随机生成英文数字字符串
+            </summary>
+            <param name="length">长度</param>
+            <returns>英文数字字符串</returns>
         </member>
         <member name="M:Hzdtf.Utility.Standard.Utils.NumberUtil.FixedLengthString(System.Int32,System.Byte)">
             <summary>
