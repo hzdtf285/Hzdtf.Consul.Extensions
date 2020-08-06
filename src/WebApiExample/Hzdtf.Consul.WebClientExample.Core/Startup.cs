@@ -29,7 +29,7 @@ namespace Hzdtf.Consul.WebClientExample.Core
         {
             services.AddControllers();
 
-            // services.AddDiscoveryConsul();
+           //  services.AddDiscoveryConsul();
             services.AddDiscoveryConsulConfigCenter();
         }
 

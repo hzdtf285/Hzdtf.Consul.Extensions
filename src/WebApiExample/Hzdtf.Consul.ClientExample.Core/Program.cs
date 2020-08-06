@@ -13,7 +13,7 @@ namespace Hzdtf.Consul.ClientExample.Core
         {
             Console.WriteLine("start test...");
 
-            var serviceProvider = new ConsulServicesProviderMemory();
+            var serviceProvider = new ConsulServiceProviderAgg();
             var serviceOptions = new UnityServicesOptionsCache();
             var unityServicesBuilder = new UnityServicesBuilder(serviceProvider, serviceOptions);
 

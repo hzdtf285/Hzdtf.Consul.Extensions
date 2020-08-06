@@ -1,5 +1,5 @@
 {
-  "ConsulAddress": "http://192.168.50.142:8500",
+  "ConsulAddress": "http://localhost:8500",
   "ServiceName": "ServiceExampleA",
   "Tags": [
     "M1",

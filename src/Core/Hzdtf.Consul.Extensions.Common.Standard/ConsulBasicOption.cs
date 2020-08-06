@@ -43,5 +43,14 @@ namespace Hzdtf.Consul.Extensions.Common.Standard
             get;
             set;
         } = 5;
+
+        /// <summary>
+        /// 间隔时间，单位：毫秒，默认为5秒
+        /// </summary>
+        public int IntervalMillseconds
+        {
+            get;
+            set;
+        } = 5000;
     }
 }

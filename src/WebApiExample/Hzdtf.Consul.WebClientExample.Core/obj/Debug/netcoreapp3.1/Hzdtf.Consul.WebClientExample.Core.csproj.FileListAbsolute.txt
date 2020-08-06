@@ -243,3 +243,4 @@ C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\WebApiExample\Hzdtf.Consul.Web
 C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\WebApiExample\Hzdtf.Consul.WebClientExample.Core\bin\Debug\netcoreapp3.1\Winton.Extensions.Configuration.Consul.dll
 C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\WebApiExample\Hzdtf.Consul.WebClientExample.Core\bin\Debug\netcoreapp3.1\Hzdtf.Consul.ConfigCenter.AspNet.Core.dll
 C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\WebApiExample\Hzdtf.Consul.WebClientExample.Core\bin\Debug\netcoreapp3.1\Hzdtf.Consul.ConfigCenter.AspNet.Core.pdb
+C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\WebApiExample\Hzdtf.Consul.WebClientExample.Core\obj\Debug\netcoreapp3.1\Hzdtf.Consul.WebClientExample.Core.MvcApplicationPartsAssemblyInfo.cs

@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 using Hzdtf.Utility.AspNet.Core.RemoteService;
 using Hzdtf.Consul.Extensions.Common.Standard;
 using Hzdtf.Utility.Standard.Utils;
+using Microsoft.Extensions.Configuration;
+using Hzdtf.Utility.Standard.RemoteService.Provider;
+using Microsoft.Extensions.Options;
 
 namespace Hzdtf.Consul.ConfigCenter.AspNet.Core
 {
@@ -30,10 +33,13 @@ namespace Hzdtf.Consul.ConfigCenter.AspNet.Core
             {
                 options(unityConsulOptions);
             }
-            services.AddMemoryCache(options =>
+            if (unityConsulOptions.ConsulBasicOption == null)
             {
-                options.Clock = new LocalSystemClock();
-            });
+                var config = new ConfigurationBuilder().AddJsonFile(unityConsulOptions.ConsulBasicOptionJsonFile).Build();
+                services.Configure<ConsulBasicOption>(config);
+
+                unityConsulOptions.ConsulBasicOption = config.Get<ConsulBasicOption>();
+            }
 
             if (unityConsulOptions.ConsulBasicOption != null)
             {
@@ -54,7 +60,33 @@ namespace Hzdtf.Consul.ConfigCenter.AspNet.Core
                 {
                     builder.ServiceBuilderConfigJsonFile = unityConsulOptions.UnityServicesOptionsJsonFile;
                 }
-                builder.ServiceProvider = new ConsulServicesProviderMemory();
+
+                switch (unityConsulOptions.CacheType)
+                {
+                    case ServiceProviderCacheType.TIMER_REFRESH:
+                        builder.ServiceProvider = new ConsulServiceProviderAgg(unityConsulOptions.ConsulBasicOption.IntervalMillseconds, unityConsulOptions.ConsulBasicOption);
+
+                        break;
+
+                    case ServiceProviderCacheType.DALAY_REFRESH:
+                        services.AddMemoryCache(options =>
+                        {
+                            options.Clock = new LocalSystemClock();
+                        });
+                        services.AddMemoryCache(options =>
+                        {
+                            options.Clock = new LocalSystemClock();
+                        });
+
+                        builder.ServiceProvider = new ConsulServicesProviderMemory(Options.Create<ConsulBasicOption>(unityConsulOptions.ConsulBasicOption));
+
+                        break;
+
+                    default:
+                        builder.ServiceProvider = new ConsulServicesProvider(unityConsulOptions.ConsulBasicOption);
+
+                        break;
+                }
             }, (builder, file, data) =>
             {
                 if (string.IsNullOrWhiteSpace(file))

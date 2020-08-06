@@ -92,6 +92,15 @@ namespace Hzdtf.Consul.Extensions.Common.Standard
         }
 
         /// <summary>
+        /// 构造方法
+        /// </summary>
+        /// <param name="consulOptions">Consul配置选项</param>
+        public ConsulServicesProviderMemory(IOptions<ConsulBasicOption> consulOptions)
+            : this(null, null, consulOptions)
+        {
+        }
+
+        /// <summary>
         /// 释放资源
         /// </summary>
         [ProcTrackLog(ExecProc = false)]

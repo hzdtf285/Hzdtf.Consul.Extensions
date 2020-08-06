@@ -1,4 +1,5 @@
 ﻿using Hzdtf.Consul.Extensions.Common.Standard;
+using Hzdtf.Utility.Standard.RemoteService.Provider;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -37,5 +38,14 @@ namespace Hzdtf.Consul.Extensions.AspNet.Core
             get;
             set;
         } = "Config/consulConfig.json";
+
+        /// <summary>
+        /// 服务提供者缓存类型，默认是定时刷新
+        /// </summary>
+        public ServiceProviderCacheType CacheType
+        {
+            get;
+            set;
+        } = ServiceProviderCacheType.TIMER_REFRESH;
     }
 }

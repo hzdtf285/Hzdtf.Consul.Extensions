@@ -1,7 +1,10 @@
 ﻿using Hzdtf.Consul.Extensions.Common.Standard;
 using Hzdtf.Utility.AspNet.Core.RemoteService;
+using Hzdtf.Utility.Standard.RemoteService.Provider;
 using Hzdtf.Utility.Standard.SystemV2;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -27,10 +30,13 @@ namespace Hzdtf.Consul.Extensions.AspNet.Core
             {
                 options(unityConsulOptions);
             }
-            services.AddMemoryCache(options =>
+            if (unityConsulOptions.ConsulBasicOption == null)
             {
-                options.Clock = new LocalSystemClock();
-            });
+                var config = new ConfigurationBuilder().AddJsonFile(unityConsulOptions.ConsulBasicOptionJsonFile).Build();
+                services.Configure<ConsulBasicOption>(config);
+
+                unityConsulOptions.ConsulBasicOption = config.Get<ConsulBasicOption>();
+            }
 
             if (unityConsulOptions.ConsulBasicOption != null)
             {
@@ -51,7 +57,29 @@ namespace Hzdtf.Consul.Extensions.AspNet.Core
                 {
                     builder.ServiceBuilderConfigJsonFile = unityConsulOptions.UnityServicesOptionsJsonFile;
                 }
-                builder.ServiceProvider = new ConsulServicesProviderMemory();
+
+                switch (unityConsulOptions.CacheType)
+                {
+                    case ServiceProviderCacheType.TIMER_REFRESH:
+                        builder.ServiceProvider = new ConsulServiceProviderAgg(unityConsulOptions.ConsulBasicOption.IntervalMillseconds, unityConsulOptions.ConsulBasicOption);
+
+                        break;
+
+                    case ServiceProviderCacheType.DALAY_REFRESH:
+                        services.AddMemoryCache(options =>
+                        {
+                            options.Clock = new LocalSystemClock();
+                        });
+
+                        builder.ServiceProvider = new ConsulServicesProviderMemory(Options.Create<ConsulBasicOption>(unityConsulOptions.ConsulBasicOption));
+
+                        break;
+
+                    default:
+                        builder.ServiceProvider = new ConsulServicesProvider(unityConsulOptions.ConsulBasicOption);
+
+                        break;
+                }
             });
 
             return services;
