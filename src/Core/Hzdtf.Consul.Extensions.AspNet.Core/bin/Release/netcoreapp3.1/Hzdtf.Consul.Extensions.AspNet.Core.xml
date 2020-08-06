@@ -82,5 +82,10 @@
             Consul基本配置Json文件
             </summary>
         </member>
+        <member name="P:Hzdtf.Consul.Extensions.AspNet.Core.UnityConsulOptions.CacheType">
+            <summary>
+            服务提供者缓存类型，默认是定时刷新
+            </summary>
+        </member>
     </members>
 </doc>

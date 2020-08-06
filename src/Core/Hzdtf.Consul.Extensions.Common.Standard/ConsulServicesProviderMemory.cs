@@ -82,7 +82,14 @@ namespace Hzdtf.Consul.Extensions.Common.Standard
         {
             if (defaultServicesProvider == null)
             {
-                defaultServicesProvider = new ConsulServicesProvider();
+                if (consulOptions == null || consulOptions.Value == null)
+                {
+                    defaultServicesProvider = new ConsulServicesProvider();
+                }
+                else
+                {
+                    defaultServicesProvider = new ConsulServicesProvider(consulOptions.Value);
+                }
             }
             this.defaultServicesProvider = defaultServicesProvider;
             if (consulOptions != null)
@@ -96,7 +103,10 @@ namespace Hzdtf.Consul.Extensions.Common.Standard
         /// </summary>
         /// <param name="consulOptions">Consul配置选项</param>
         public ConsulServicesProviderMemory(IOptions<ConsulBasicOption> consulOptions)
-            : this(null, null, consulOptions)
+            : this(new MemoryCache(new MemoryCacheOptions()
+            {
+                Clock = new LocalSystemClock()
+            }), null, consulOptions)
         {
         }
 

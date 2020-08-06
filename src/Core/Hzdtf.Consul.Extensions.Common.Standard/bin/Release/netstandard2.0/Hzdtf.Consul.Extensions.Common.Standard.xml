@@ -30,6 +30,11 @@
             缓存失效时间（单位：秒），默认为5秒。-1为永不过期
             </summary>
         </member>
+        <member name="P:Hzdtf.Consul.Extensions.Common.Standard.ConsulBasicOption.IntervalMillseconds">
+            <summary>
+            间隔时间，单位：毫秒，默认为5秒
+            </summary>
+        </member>
         <member name="T:Hzdtf.Consul.Extensions.Common.Standard.ConsulOptions">
             <summary>
             Consul选项配置
@@ -103,6 +108,79 @@
             <param name="options">选项配置</param>
             <param name="getLocalServiceAddress">回调获取本地服务地址</param>
             <returns>Consul客户端</returns>
+        </member>
+        <member name="T:Hzdtf.Consul.Extensions.Common.Standard.ConsulServiceProviderAgg">
+            <summary>
+            Consul服务提供者聚合
+            @ 黄振东
+            </summary>
+        </member>
+        <member name="F:Hzdtf.Consul.Extensions.Common.Standard.ConsulServiceProviderAgg.intervalMillseconds">
+            <summary>
+            间隔时间，单位：毫秒
+            </summary>
+        </member>
+        <member name="F:Hzdtf.Consul.Extensions.Common.Standard.ConsulServiceProviderAgg.options">
+            <summary>
+            Consul基本选项
+            </summary>
+        </member>
+        <member name="M:Hzdtf.Consul.Extensions.Common.Standard.ConsulServiceProviderAgg.#ctor(System.String)">
+            <summary>
+            构造方法
+            </summary>
+            <param name="consulConfigFile">Consul配置文件</param>
+        </member>
+        <member name="M:Hzdtf.Consul.Extensions.Common.Standard.ConsulServiceProviderAgg.#ctor(System.Int32,Hzdtf.Consul.Extensions.Common.Standard.ConsulBasicOption)">
+            <summary>
+            构造方法
+            </summary>
+            <param name="intervalMillseconds">间隔时间，单位：毫秒</param>
+            <param name="options">Consul基本选项</param>
+        </member>
+        <member name="M:Hzdtf.Consul.Extensions.Common.Standard.ConsulServiceProviderAgg.CreateReader(System.String,System.String)">
+            <summary>
+            创建读取
+            </summary>
+            <param name="serviceName">服务名</param>
+            <param name="tag">标签</param>
+            <returns>读取</returns>
+        </member>
+        <member name="T:Hzdtf.Consul.Extensions.Common.Standard.ConsulServiceProviderTimerRefreshCache">
+            <summary>
+            Consul服务提供者定时刷新缓存
+            @ 黄振东
+            </summary>
+        </member>
+        <member name="F:Hzdtf.Consul.Extensions.Common.Standard.ConsulServiceProviderTimerRefreshCache.defaultServicesProvider">
+            <summary>
+            默认服务提供者
+            </summary>
+        </member>
+        <member name="M:Hzdtf.Consul.Extensions.Common.Standard.ConsulServiceProviderTimerRefreshCache.#ctor(System.Int32,System.Object,Hzdtf.Consul.Extensions.Common.Standard.ConsulBasicOption)">
+            <summary>
+            构造方法
+            </summary>
+            <param name="intervalMillseconds">间隔时间，单位：毫秒</param>
+            <param name="state">状态</param>
+            <param name="options">Consul基本选项</param>
+        </member>
+        <member name="M:Hzdtf.Consul.Extensions.Common.Standard.ConsulServiceProviderTimerRefreshCache.Refresh(System.Object)">
+            <summary>
+            刷新
+            </summary>
+            <param name="state">状态</param>
+            <returns>值</returns>
+        </member>
+        <member name="M:Hzdtf.Consul.Extensions.Common.Standard.ConsulServiceProviderTimerRefreshCache.Dispose">
+            <summary>
+            释放资源
+            </summary>
+        </member>
+        <member name="M:Hzdtf.Consul.Extensions.Common.Standard.ConsulServiceProviderTimerRefreshCache.Finalize">
+            <summary>
+            析构方法
+            </summary>
         </member>
         <member name="T:Hzdtf.Consul.Extensions.Common.Standard.ConsulServicesProvider">
             <summary>
@@ -188,6 +266,12 @@
             </summary>
             <param name="cache">缓存</param>
             <param name="defaultServicesProvider">默认服务提供者</param>
+            <param name="consulOptions">Consul配置选项</param>
+        </member>
+        <member name="M:Hzdtf.Consul.Extensions.Common.Standard.ConsulServicesProviderMemory.#ctor(Microsoft.Extensions.Options.IOptions{Hzdtf.Consul.Extensions.Common.Standard.ConsulBasicOption})">
+            <summary>
+            构造方法
+            </summary>
             <param name="consulOptions">Consul配置选项</param>
         </member>
         <member name="M:Hzdtf.Consul.Extensions.Common.Standard.ConsulServicesProviderMemory.Dispose">
