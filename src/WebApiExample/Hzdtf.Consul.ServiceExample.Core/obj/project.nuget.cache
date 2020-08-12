@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PPSXT988bULlNw7KVruw4f1b1g4LpADC47JUprd8PGiGj3OaDmtiE2wny5grrxLNAA8JJ+CqgYdQe2dJWVit8g==",
+  "dgSpecHash": "dhnwZIUqM6677mjmDasNrIjmbnx9yYYBqcB2ZLIOjUbI0IltdbHGq7P69kTVAugRaV3lCce4/bVMjfC257gy/Q==",
   "success": true,
   "projectFilePath": "C:\\AndyData\\MyProject\\Hzdtf.Consul.Extensions\\src\\WebApiExample\\Hzdtf.Consul.ServiceExample.Core\\Hzdtf.Consul.ServiceExample.Core.csproj",
   "expectedPackageFiles": [

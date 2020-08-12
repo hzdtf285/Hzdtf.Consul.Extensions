@@ -74,3 +74,5 @@ C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\GRpcExample\Hzdtf.Consul.GRpc.
 C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\GRpcExample\Hzdtf.Consul.GRpc.ServiceExample.Core\obj\Release\netcoreapp3.1\staticwebassets\Hzdtf.Consul.GRpc.ServiceExample.Core.StaticWebAssets.Manifest.cache
 C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\GRpcExample\Hzdtf.Consul.GRpc.ServiceExample.Core\obj\Release\netcoreapp3.1\staticwebassets\Hzdtf.Consul.GRpc.ServiceExample.Core.StaticWebAssets.xml
 C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\GRpcExample\Hzdtf.Consul.GRpc.ServiceExample.Core\obj\Release\netcoreapp3.1\Hzdtf.Consul.GRpc.ServiceExample.Core.genruntimeconfig.cache
+C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\GRpcExample\Hzdtf.Consul.GRpc.ServiceExample.Core\bin\Release\netcoreapp3.1\Hzdtf.Mini.Standard.dll
+C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\GRpcExample\Hzdtf.Consul.GRpc.ServiceExample.Core\bin\Release\netcoreapp3.1\Hzdtf.Mini.Standard.pdb

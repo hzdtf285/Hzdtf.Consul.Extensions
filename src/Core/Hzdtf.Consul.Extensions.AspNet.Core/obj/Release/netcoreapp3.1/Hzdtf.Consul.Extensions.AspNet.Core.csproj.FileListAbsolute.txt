@@ -41,3 +41,5 @@ C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\Core\Hzdtf.Consul.Extensions.A
 C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\Core\Hzdtf.Consul.Extensions.AspNet.Core\obj\Release\netcoreapp3.1\Hzdtf.Consul.Extensions.AspNet.Core.dll
 C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\Core\Hzdtf.Consul.Extensions.AspNet.Core\obj\Release\netcoreapp3.1\Hzdtf.Consul.Extensions.AspNet.Core.pdb
 C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\Core\Hzdtf.Consul.Extensions.AspNet.Core\obj\Release\netcoreapp3.1\Hzdtf.Consul.Extensions.AspNet.Core.csproj.CoreCompileInputs.cache
+C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\Core\Hzdtf.Consul.Extensions.AspNet.Core\bin\Release\netcoreapp3.1\Hzdtf.Mini.Standard.dll
+C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\Core\Hzdtf.Consul.Extensions.AspNet.Core\bin\Release\netcoreapp3.1\Hzdtf.Mini.Standard.pdb

@@ -299,6 +299,14 @@
             "fileVersion": "2.0.0.0"
           }
         }
+      },
+      "Hzdtf.Mini.Standard/1.0.0.0": {
+        "runtime": {
+          "Hzdtf.Mini.Standard.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -545,6 +553,11 @@
       "sha512": ""
     },
     "Hzdtf.Utility.Standard/2.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Hzdtf.Mini.Standard/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

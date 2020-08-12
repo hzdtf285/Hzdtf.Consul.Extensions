@@ -15,3 +15,5 @@ C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\Core\Hzdtf.Consul.Extensions.G
 C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\Core\Hzdtf.Consul.Extensions.GRpc.Core\obj\Release\netcoreapp3.1\Hzdtf.Consul.Extensions.GRpc.Core.csproj.CopyComplete
 C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\Core\Hzdtf.Consul.Extensions.GRpc.Core\obj\Release\netcoreapp3.1\Hzdtf.Consul.Extensions.GRpc.Core.dll
 C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\Core\Hzdtf.Consul.Extensions.GRpc.Core\obj\Release\netcoreapp3.1\Hzdtf.Consul.Extensions.GRpc.Core.pdb
+C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\Core\Hzdtf.Consul.Extensions.GRpc.Core\bin\Release\netcoreapp3.1\Hzdtf.Mini.Standard.dll
+C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\Core\Hzdtf.Consul.Extensions.GRpc.Core\bin\Release\netcoreapp3.1\Hzdtf.Mini.Standard.pdb

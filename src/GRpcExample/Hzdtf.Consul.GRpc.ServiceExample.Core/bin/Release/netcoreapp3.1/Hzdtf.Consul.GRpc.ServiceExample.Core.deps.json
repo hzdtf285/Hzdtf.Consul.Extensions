@@ -10,7 +10,7 @@
       "NETCOREAPP",
       "NETCOREAPP3_1"
     ],
-    "languageVersion": "",
+    "languageVersion": "8.0",
     "platform": "",
     "allowUnsafe": false,
     "warningsAsErrors": false,
@@ -886,6 +886,14 @@
           "Hzdtf.Utility.AspNet.Core.dll": {
             "assemblyVersion": "3.1.5.0",
             "fileVersion": "3.1.5.0"
+          }
+        }
+      },
+      "Hzdtf.Mini.Standard/1.0.0.0": {
+        "runtime": {
+          "Hzdtf.Mini.Standard.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -2885,6 +2893,11 @@
       "sha512": ""
     },
     "Hzdtf.Utility.AspNet.Core/3.1.5.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Hzdtf.Mini.Standard/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

@@ -63,3 +63,5 @@ C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\WebApiExample\Hzdtf.Consul.Cli
 C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\WebApiExample\Hzdtf.Consul.ClientExample.Core\obj\Release\netcoreapp3.1\Hzdtf.Consul.ClientExample.Core.genruntimeconfig.cache
 C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\WebApiExample\Hzdtf.Consul.ClientExample.Core\bin\Release\netcoreapp3.1\MessagePack.Annotations.dll
 C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\WebApiExample\Hzdtf.Consul.ClientExample.Core\bin\Release\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\WebApiExample\Hzdtf.Consul.ClientExample.Core\bin\Release\netcoreapp3.1\Hzdtf.Mini.Standard.dll
+C:\AndyData\MyProject\Hzdtf.Consul.Extensions\src\WebApiExample\Hzdtf.Consul.ClientExample.Core\bin\Release\netcoreapp3.1\Hzdtf.Mini.Standard.pdb

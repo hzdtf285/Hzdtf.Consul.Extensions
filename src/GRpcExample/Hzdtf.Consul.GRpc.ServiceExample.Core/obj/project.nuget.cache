@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mLVN/24tMge8Ci/H9EvvRdtAp6GjM3kURz/ngQMM2yO5RM6KpX3gSiLh06tHOAQhsl+KhRiWMbGD8ZD/RVDlZg==",
+  "dgSpecHash": "s31othH33ZiHZbB9N8E8U4rp6UWwDpRabfd1vjXYRTk2cSlhOdBMJYuyJkRpLsW8C/DxInsLYP7Xl3fBhKuPrw==",
   "success": true,
   "projectFilePath": "C:\\AndyData\\MyProject\\Hzdtf.Consul.Extensions\\src\\GRpcExample\\Hzdtf.Consul.GRpc.ServiceExample.Core\\Hzdtf.Consul.GRpc.ServiceExample.Core.csproj",
   "expectedPackageFiles": [
