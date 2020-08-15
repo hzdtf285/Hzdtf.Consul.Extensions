@@ -20,6 +20,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="Hzdtf.Mini.Standard">
+      <HintPath>..\..\..\..\Hzdtf.AMQP\src\Library\Hzdtf.Mini.Standard.dll</HintPath>
+    </Reference>
     <Reference Include="Hzdtf.Utility.AspNet.Core">
       <HintPath>..\..\Library\Hzdtf.Utility.AspNet.Core.dll</HintPath>
     </Reference>

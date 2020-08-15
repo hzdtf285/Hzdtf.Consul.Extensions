@@ -10,6 +10,7 @@
         "dependencies": {
           "Hzdtf.Consul.Extensions.Common.Standard": "1.0.0",
           "Newtonsoft.Json": "12.0.3",
+          "Hzdtf.Mini.Standard": "1.0.0.0",
           "Hzdtf.Utility.Standard": "2.0.0.0"
         },
         "runtime": {
@@ -144,19 +145,19 @@
           "Hzdtf.Consul.Extensions.Common.Standard.dll": {}
         }
       },
-      "Hzdtf.Utility.Standard/2.0.0.0": {
-        "runtime": {
-          "Hzdtf.Utility.Standard.dll": {
-            "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.0.0.0"
-          }
-        }
-      },
       "Hzdtf.Mini.Standard/1.0.0.0": {
         "runtime": {
           "Hzdtf.Mini.Standard.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Hzdtf.Utility.Standard/2.0.0.0": {
+        "runtime": {
+          "Hzdtf.Utility.Standard.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
           }
         }
       }
@@ -285,12 +286,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Hzdtf.Utility.Standard/2.0.0.0": {
+    "Hzdtf.Mini.Standard/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "Hzdtf.Mini.Standard/1.0.0.0": {
+    "Hzdtf.Utility.Standard/2.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

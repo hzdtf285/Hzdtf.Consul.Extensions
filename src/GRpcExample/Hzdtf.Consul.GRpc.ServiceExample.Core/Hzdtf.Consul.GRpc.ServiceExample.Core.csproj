@@ -17,4 +17,10 @@
     <ProjectReference Include="..\..\Core\Hzdtf.Consul.Extensions.GRpc.Core\Hzdtf.Consul.Extensions.GRpc.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="Hzdtf.Mini.Standard">
+      <HintPath>..\..\..\..\Hzdtf.AMQP\src\Library\Hzdtf.Mini.Standard.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

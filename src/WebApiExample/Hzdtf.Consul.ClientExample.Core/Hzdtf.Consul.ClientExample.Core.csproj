@@ -26,6 +26,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="Hzdtf.Mini.Standard">
+      <HintPath>..\..\..\..\Hzdtf.AMQP\src\Library\Hzdtf.Mini.Standard.dll</HintPath>
+    </Reference>
     <Reference Include="Hzdtf.Utility.Standard">
       <HintPath>..\..\Library\Hzdtf.Utility.Standard.dll</HintPath>
     </Reference>
