@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SmG2Z/5Pqw0t1u4+DXw0XWxmxRym4dIe0Tyha8E788zQo50Q6zX5HCtMYs/RdeuieBPk1XjxUnU479wTFy2L4Q==",
+  "dgSpecHash": "uDia4rXmrWuzw4Xxh59VI0DU0XwthajB8immVIB5Za6SWDv8Aqn8O61Hv55SMzj3Iou3/vHWdKy9hrSI167ruw==",
   "success": true,
-  "projectFilePath": "C:\\AndyData\\MyProject\\Hzdtf.Consul.Extensions\\src\\Core\\Hzdtf.Consul.Extensions.GRpc.Core\\Hzdtf.Consul.Extensions.GRpc.Core.csproj",
+  "projectFilePath": "D:\\MyProjects\\Hzdtf.Consul.Extensions\\src\\Core\\Hzdtf.Consul.Extensions.GRpc.Core\\Hzdtf.Consul.Extensions.GRpc.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\consul\\1.6.1.1\\consul.1.6.1.1.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\google.protobuf\\3.11.4\\google.protobuf.3.11.4.nupkg.sha512",

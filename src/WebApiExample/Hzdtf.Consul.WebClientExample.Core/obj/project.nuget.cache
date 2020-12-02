@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4WgLa8Lzl5cQtzL3YPHyWJhwJxSLQjzPv7kjWH0HM8AdJLuou+hRPpxHQ1QCqorEFR8oqmCQwAlBRB7EW+QmRw==",
+  "dgSpecHash": "KQ1K8Uds8gxSilslhxAaQOt9KbaU8LooPmA4MC77fOZs6K6DhFiRB5/98wB8Tg9bq6GhYanYJhwmD8b6VDOHjA==",
   "success": true,
-  "projectFilePath": "C:\\AndyData\\MyProject\\Hzdtf.Consul.Extensions\\src\\WebApiExample\\Hzdtf.Consul.WebClientExample.Core\\Hzdtf.Consul.WebClientExample.Core.csproj",
+  "projectFilePath": "D:\\MyProjects\\Hzdtf.Consul.Extensions\\src\\WebApiExample\\Hzdtf.Consul.WebClientExample.Core\\Hzdtf.Consul.WebClientExample.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\consul\\1.6.1.1\\consul.1.6.1.1.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
