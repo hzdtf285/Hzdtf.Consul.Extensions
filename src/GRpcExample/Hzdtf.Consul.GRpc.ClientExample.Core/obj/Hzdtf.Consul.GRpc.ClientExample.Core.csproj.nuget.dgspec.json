@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MyProjects\\Hzdtf.Consul.Extensions\\src\\GRpcExample\\Hzdtf.Consul.GRpc.ClientExample.Core\\Hzdtf.Consul.GRpc.ClientExample.Core.csproj": {}
+    "F:\\MyWorks\\net2\\Hzdtf.Consul.Extensions\\src\\GRpcExample\\Hzdtf.Consul.GRpc.ClientExample.Core\\Hzdtf.Consul.GRpc.ClientExample.Core.csproj": {}
   },
   "projects": {
-    "D:\\MyProjects\\Hzdtf.Consul.Extensions\\src\\Core\\Hzdtf.Consul.Extensions.Common.Standard\\Hzdtf.Consul.Extensions.Common.Standard.csproj": {
+    "F:\\MyWorks\\net2\\Hzdtf.Consul.Extensions\\src\\Core\\Hzdtf.Consul.Extensions.Common.Standard\\Hzdtf.Consul.Extensions.Common.Standard.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyProjects\\Hzdtf.Consul.Extensions\\src\\Core\\Hzdtf.Consul.Extensions.Common.Standard\\Hzdtf.Consul.Extensions.Common.Standard.csproj",
+        "projectUniqueName": "F:\\MyWorks\\net2\\Hzdtf.Consul.Extensions\\src\\Core\\Hzdtf.Consul.Extensions.Common.Standard\\Hzdtf.Consul.Extensions.Common.Standard.csproj",
         "projectName": "Hzdtf.Consul.Extensions.Common.Standard",
-        "projectPath": "D:\\MyProjects\\Hzdtf.Consul.Extensions\\src\\Core\\Hzdtf.Consul.Extensions.Common.Standard\\Hzdtf.Consul.Extensions.Common.Standard.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\MyProjects\\Hzdtf.Consul.Extensions\\src\\Core\\Hzdtf.Consul.Extensions.Common.Standard\\obj\\",
+        "projectPath": "F:\\MyWorks\\net2\\Hzdtf.Consul.Extensions\\src\\Core\\Hzdtf.Consul.Extensions.Common.Standard\\Hzdtf.Consul.Extensions.Common.Standard.csproj",
+        "packagesPath": "C:\\Users\\huangzd\\.nuget\\packages\\",
+        "outputPath": "F:\\MyWorks\\net2\\Hzdtf.Consul.Extensions\\src\\Core\\Hzdtf.Consul.Extensions.Common.Standard\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\huangzd\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -71,17 +74,20 @@
         }
       }
     },
-    "D:\\MyProjects\\Hzdtf.Consul.Extensions\\src\\GRpcExample\\Hzdtf.Consul.GRpc.ClientExample.Core\\Hzdtf.Consul.GRpc.ClientExample.Core.csproj": {
+    "F:\\MyWorks\\net2\\Hzdtf.Consul.Extensions\\src\\GRpcExample\\Hzdtf.Consul.GRpc.ClientExample.Core\\Hzdtf.Consul.GRpc.ClientExample.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyProjects\\Hzdtf.Consul.Extensions\\src\\GRpcExample\\Hzdtf.Consul.GRpc.ClientExample.Core\\Hzdtf.Consul.GRpc.ClientExample.Core.csproj",
+        "projectUniqueName": "F:\\MyWorks\\net2\\Hzdtf.Consul.Extensions\\src\\GRpcExample\\Hzdtf.Consul.GRpc.ClientExample.Core\\Hzdtf.Consul.GRpc.ClientExample.Core.csproj",
         "projectName": "Hzdtf.Consul.GRpc.ClientExample.Core",
-        "projectPath": "D:\\MyProjects\\Hzdtf.Consul.Extensions\\src\\GRpcExample\\Hzdtf.Consul.GRpc.ClientExample.Core\\Hzdtf.Consul.GRpc.ClientExample.Core.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\MyProjects\\Hzdtf.Consul.Extensions\\src\\GRpcExample\\Hzdtf.Consul.GRpc.ClientExample.Core\\obj\\",
+        "projectPath": "F:\\MyWorks\\net2\\Hzdtf.Consul.Extensions\\src\\GRpcExample\\Hzdtf.Consul.GRpc.ClientExample.Core\\Hzdtf.Consul.GRpc.ClientExample.Core.csproj",
+        "packagesPath": "C:\\Users\\huangzd\\.nuget\\packages\\",
+        "outputPath": "F:\\MyWorks\\net2\\Hzdtf.Consul.Extensions\\src\\GRpcExample\\Hzdtf.Consul.GRpc.ClientExample.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\huangzd\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -94,8 +100,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\MyProjects\\Hzdtf.Consul.Extensions\\src\\Core\\Hzdtf.Consul.Extensions.Common.Standard\\Hzdtf.Consul.Extensions.Common.Standard.csproj": {
-                "projectPath": "D:\\MyProjects\\Hzdtf.Consul.Extensions\\src\\Core\\Hzdtf.Consul.Extensions.Common.Standard\\Hzdtf.Consul.Extensions.Common.Standard.csproj"
+              "F:\\MyWorks\\net2\\Hzdtf.Consul.Extensions\\src\\Core\\Hzdtf.Consul.Extensions.Common.Standard\\Hzdtf.Consul.Extensions.Common.Standard.csproj": {
+                "projectPath": "F:\\MyWorks\\net2\\Hzdtf.Consul.Extensions\\src\\Core\\Hzdtf.Consul.Extensions.Common.Standard\\Hzdtf.Consul.Extensions.Common.Standard.csproj"
               }
             }
           }

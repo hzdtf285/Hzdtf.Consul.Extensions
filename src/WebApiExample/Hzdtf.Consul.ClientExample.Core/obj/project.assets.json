@@ -577,19 +577,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\admin\\.nuget\\packages\\": {}
+    "C:\\Users\\huangzd\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MyProjects\\Hzdtf.Consul.Extensions\\src\\WebApiExample\\Hzdtf.Consul.ClientExample.Core\\Hzdtf.Consul.ClientExample.Core.csproj",
+      "projectUniqueName": "F:\\MyWorks\\net2\\Hzdtf.Consul.Extensions\\src\\WebApiExample\\Hzdtf.Consul.ClientExample.Core\\Hzdtf.Consul.ClientExample.Core.csproj",
       "projectName": "Hzdtf.Consul.ClientExample.Core",
-      "projectPath": "D:\\MyProjects\\Hzdtf.Consul.Extensions\\src\\WebApiExample\\Hzdtf.Consul.ClientExample.Core\\Hzdtf.Consul.ClientExample.Core.csproj",
-      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\MyProjects\\Hzdtf.Consul.Extensions\\src\\WebApiExample\\Hzdtf.Consul.ClientExample.Core\\obj\\",
+      "projectPath": "F:\\MyWorks\\net2\\Hzdtf.Consul.Extensions\\src\\WebApiExample\\Hzdtf.Consul.ClientExample.Core\\Hzdtf.Consul.ClientExample.Core.csproj",
+      "packagesPath": "C:\\Users\\huangzd\\.nuget\\packages\\",
+      "outputPath": "F:\\MyWorks\\net2\\Hzdtf.Consul.Extensions\\src\\WebApiExample\\Hzdtf.Consul.ClientExample.Core\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\huangzd\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -602,8 +606,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\MyProjects\\Hzdtf.Consul.Extensions\\src\\Core\\Hzdtf.Consul.Extensions.Common.Standard\\Hzdtf.Consul.Extensions.Common.Standard.csproj": {
-              "projectPath": "D:\\MyProjects\\Hzdtf.Consul.Extensions\\src\\Core\\Hzdtf.Consul.Extensions.Common.Standard\\Hzdtf.Consul.Extensions.Common.Standard.csproj"
+            "F:\\MyWorks\\net2\\Hzdtf.Consul.Extensions\\src\\Core\\Hzdtf.Consul.Extensions.Common.Standard\\Hzdtf.Consul.Extensions.Common.Standard.csproj": {
+              "projectPath": "F:\\MyWorks\\net2\\Hzdtf.Consul.Extensions\\src\\Core\\Hzdtf.Consul.Extensions.Common.Standard\\Hzdtf.Consul.Extensions.Common.Standard.csproj"
             }
           }
         }

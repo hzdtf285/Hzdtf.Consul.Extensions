@@ -1645,19 +1645,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\admin\\.nuget\\packages\\": {}
+    "C:\\Users\\huangzd\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MyProjects\\Hzdtf.Consul.Extensions\\src\\GRpcExample\\Hzdtf.Consul.GRpc.ServiceExample.Core\\Hzdtf.Consul.GRpc.ServiceExample.Core.csproj",
+      "projectUniqueName": "F:\\MyWorks\\net2\\Hzdtf.Consul.Extensions\\src\\GRpcExample\\Hzdtf.Consul.GRpc.ServiceExample.Core\\Hzdtf.Consul.GRpc.ServiceExample.Core.csproj",
       "projectName": "Hzdtf.Consul.GRpc.ServiceExample.Core",
-      "projectPath": "D:\\MyProjects\\Hzdtf.Consul.Extensions\\src\\GRpcExample\\Hzdtf.Consul.GRpc.ServiceExample.Core\\Hzdtf.Consul.GRpc.ServiceExample.Core.csproj",
-      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\MyProjects\\Hzdtf.Consul.Extensions\\src\\GRpcExample\\Hzdtf.Consul.GRpc.ServiceExample.Core\\obj\\",
+      "projectPath": "F:\\MyWorks\\net2\\Hzdtf.Consul.Extensions\\src\\GRpcExample\\Hzdtf.Consul.GRpc.ServiceExample.Core\\Hzdtf.Consul.GRpc.ServiceExample.Core.csproj",
+      "packagesPath": "C:\\Users\\huangzd\\.nuget\\packages\\",
+      "outputPath": "F:\\MyWorks\\net2\\Hzdtf.Consul.Extensions\\src\\GRpcExample\\Hzdtf.Consul.GRpc.ServiceExample.Core\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\huangzd\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1670,11 +1674,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\MyProjects\\Hzdtf.Consul.Extensions\\src\\Core\\Hzdtf.Consul.ConfigCenter.AspNet.Core\\Hzdtf.Consul.ConfigCenter.AspNet.Core.csproj": {
-              "projectPath": "D:\\MyProjects\\Hzdtf.Consul.Extensions\\src\\Core\\Hzdtf.Consul.ConfigCenter.AspNet.Core\\Hzdtf.Consul.ConfigCenter.AspNet.Core.csproj"
+            "F:\\MyWorks\\net2\\Hzdtf.Consul.Extensions\\src\\Core\\Hzdtf.Consul.ConfigCenter.AspNet.Core\\Hzdtf.Consul.ConfigCenter.AspNet.Core.csproj": {
+              "projectPath": "F:\\MyWorks\\net2\\Hzdtf.Consul.Extensions\\src\\Core\\Hzdtf.Consul.ConfigCenter.AspNet.Core\\Hzdtf.Consul.ConfigCenter.AspNet.Core.csproj"
             },
-            "D:\\MyProjects\\Hzdtf.Consul.Extensions\\src\\Core\\Hzdtf.Consul.Extensions.GRpc.Core\\Hzdtf.Consul.Extensions.GRpc.Core.csproj": {
-              "projectPath": "D:\\MyProjects\\Hzdtf.Consul.Extensions\\src\\Core\\Hzdtf.Consul.Extensions.GRpc.Core\\Hzdtf.Consul.Extensions.GRpc.Core.csproj"
+            "F:\\MyWorks\\net2\\Hzdtf.Consul.Extensions\\src\\Core\\Hzdtf.Consul.Extensions.GRpc.Core\\Hzdtf.Consul.Extensions.GRpc.Core.csproj": {
+              "projectPath": "F:\\MyWorks\\net2\\Hzdtf.Consul.Extensions\\src\\Core\\Hzdtf.Consul.Extensions.GRpc.Core\\Hzdtf.Consul.Extensions.GRpc.Core.csproj"
             }
           }
         }
