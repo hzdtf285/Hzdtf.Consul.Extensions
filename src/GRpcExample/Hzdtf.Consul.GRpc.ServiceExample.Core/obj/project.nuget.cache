@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GLxnt9nkSx1vj+Usr+SLTyBeVdCv2+DTq1bWZQkQbeqoltmRci/uj2iqJN7vN6iH7qFXVeocJnAgMCB1s+Wqqg==",
+  "dgSpecHash": "Zc7OCED+Fy+gVewE4Dwmk9FawqXIXTTR9CvxIDWAdF0+xF44Bn6/nM3H4fLGUYaHPIta9NO9hT1iBFjwUmLhfw==",
   "success": true,
   "projectFilePath": "F:\\MyWorks\\net2\\Hzdtf.Consul.Extensions\\src\\GRpcExample\\Hzdtf.Consul.GRpc.ServiceExample.Core\\Hzdtf.Consul.GRpc.ServiceExample.Core.csproj",
   "expectedPackageFiles": [
