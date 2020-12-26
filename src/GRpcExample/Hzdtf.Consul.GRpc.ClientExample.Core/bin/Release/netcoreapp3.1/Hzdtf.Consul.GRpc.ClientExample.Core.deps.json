@@ -8,9 +8,9 @@
     ".NETCoreApp,Version=v3.1": {
       "Hzdtf.Consul.GRpc.ClientExample.Core/1.0.0": {
         "dependencies": {
-          "Google.Protobuf": "3.12.3",
-          "Grpc.Net.Client": "2.29.0",
-          "Grpc.Tools": "2.30.0",
+          "Google.Protobuf": "3.14.0",
+          "Grpc.Net.Client": "2.34.0",
+          "Grpc.Tools": "2.34.0",
           "Hzdtf.Consul.Extensions.Common.Standard": "1.0.0",
           "Newtonsoft.Json": "12.0.1",
           "Hzdtf.Mini.Standard": "1.0.0.0",
@@ -31,58 +31,59 @@
           }
         }
       },
-      "Google.Protobuf/3.12.3": {
+      "Google.Protobuf/3.14.0": {
         "dependencies": {
-          "System.Memory": "4.5.3"
+          "System.Memory": "4.5.3",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
         },
         "runtime": {
           "lib/netstandard2.0/Google.Protobuf.dll": {
-            "assemblyVersion": "3.12.3.0",
-            "fileVersion": "3.12.3.0"
+            "assemblyVersion": "3.14.0.0",
+            "fileVersion": "3.14.0.0"
           }
         }
       },
-      "Grpc.Core.Api/2.29.0": {
+      "Grpc.Core.Api/2.34.0": {
         "dependencies": {
           "System.Memory": "4.5.3"
         },
         "runtime": {
           "lib/netstandard2.0/Grpc.Core.Api.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.29.0.0"
+            "fileVersion": "2.34.0.0"
           }
         }
       },
-      "Grpc.Net.Client/2.29.0": {
+      "Grpc.Net.Client/2.34.0": {
         "dependencies": {
-          "Grpc.Core.Api": "2.29.0",
-          "Grpc.Net.Common": "2.29.0",
+          "Grpc.Net.Common": "2.34.0",
           "Microsoft.Extensions.Logging.Abstractions": "3.1.5",
           "System.Diagnostics.DiagnosticSource": "4.5.1"
         },
         "runtime": {
           "lib/netstandard2.1/Grpc.Net.Client.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.29.0.0"
+            "fileVersion": "2.34.0.0"
           }
         }
       },
-      "Grpc.Net.Common/2.29.0": {
+      "Grpc.Net.Common/2.34.0": {
         "dependencies": {
-          "Grpc.Core.Api": "2.29.0"
+          "Grpc.Core.Api": "2.34.0"
         },
         "runtime": {
           "lib/netstandard2.1/Grpc.Net.Common.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.29.0.0"
+            "fileVersion": "2.34.0.0"
           }
         }
       },
-      "Grpc.Tools/2.30.0": {},
-      "MessagePack/2.1.152": {
+      "Grpc.Tools/2.34.0": {},
+      "MessagePack/2.2.85": {
         "dependencies": {
-          "MessagePack.Annotations": "2.1.152",
+          "MessagePack.Annotations": "2.2.85",
           "Microsoft.Bcl.AsyncInterfaces": "1.0.0",
+          "System.Collections.Immutable": "1.5.0",
           "System.Memory": "4.5.3",
           "System.Reflection.Emit": "4.6.0",
           "System.Reflection.Emit.Lightweight": "4.6.0",
@@ -91,16 +92,16 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/MessagePack.dll": {
-            "assemblyVersion": "2.1.0.0",
-            "fileVersion": "2.1.152.29568"
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.85.21899"
           }
         }
       },
-      "MessagePack.Annotations/2.1.152": {
+      "MessagePack.Annotations/2.2.85": {
         "runtime": {
           "lib/netstandard2.0/MessagePack.Annotations.dll": {
-            "assemblyVersion": "2.1.0.0",
-            "fileVersion": "2.1.152.29568"
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.85.21899"
           }
         }
       },
@@ -181,6 +182,7 @@
           }
         }
       },
+      "System.Collections.Immutable/1.5.0": {},
       "System.Diagnostics.DiagnosticSource/4.5.1": {},
       "System.Memory/4.5.3": {},
       "System.Reflection.Emit/4.6.0": {},
@@ -190,7 +192,7 @@
       "Hzdtf.Consul.Extensions.Common.Standard/1.0.0": {
         "dependencies": {
           "Consul": "1.6.1.1",
-          "MessagePack": "2.1.152",
+          "MessagePack": "2.2.85",
           "Microsoft.Extensions.Caching.Memory": "3.1.5"
         },
         "runtime": {
@@ -228,54 +230,54 @@
       "path": "consul/1.6.1.1",
       "hashPath": "consul.1.6.1.1.nupkg.sha512"
     },
-    "Google.Protobuf/3.12.3": {
+    "Google.Protobuf/3.14.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-k+Dj0bdOy6/xhIZOthvDS2Ux9y5q6dWw+36n3SBVHYl520+tvcqLOpx6YsgQVy12cuzZbF+r73RZ0fxmpJ8c6A==",
-      "path": "google.protobuf/3.12.3",
-      "hashPath": "google.protobuf.3.12.3.nupkg.sha512"
+      "sha512": "sha512-9AkodyGNmLI+wJJPbwpWLmh4BMHoXDQ9+8qvDPhQQi/BNsleqKMBn3OlyLwC6CALwan2kc5+Cenb8fJSITX3nQ==",
+      "path": "google.protobuf/3.14.0",
+      "hashPath": "google.protobuf.3.14.0.nupkg.sha512"
     },
-    "Grpc.Core.Api/2.29.0": {
+    "Grpc.Core.Api/2.34.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-0jBIZo2f6KkCPD0vxD8rs4tASTp0lwPcyE8BfxQ/dx39eQ4qAPD/eB7JZNlG9rXrzrYBuU4Etdr4eysYVddqYA==",
-      "path": "grpc.core.api/2.29.0",
-      "hashPath": "grpc.core.api.2.29.0.nupkg.sha512"
+      "sha512": "sha512-TfxhML3GDy9Lo7Qk5Nax1ySGXNwxZQ3znVeV2n5SRHZC6EVoRSRy0foPAKrSgmyvrGlCdfsH4E2EmaLvCkNI2w==",
+      "path": "grpc.core.api/2.34.0",
+      "hashPath": "grpc.core.api.2.34.0.nupkg.sha512"
     },
-    "Grpc.Net.Client/2.29.0": {
+    "Grpc.Net.Client/2.34.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-uxMV3TMWyd60zJaqWeGCQCybSihplR+JyNGuzny9qyKTCGkcB0U4vPe8O6CJMG8GQyKevu103xsURWF/XNVrBg==",
-      "path": "grpc.net.client/2.29.0",
-      "hashPath": "grpc.net.client.2.29.0.nupkg.sha512"
+      "sha512": "sha512-UJkhLPa80jR0G6VsZmmSbKQBsvmxKPY+N2UvN/cEWZXezboRoSyk8h4Yb3t/BEHsRkjNhMqw4UPpr2INUK1HlA==",
+      "path": "grpc.net.client/2.34.0",
+      "hashPath": "grpc.net.client.2.34.0.nupkg.sha512"
     },
-    "Grpc.Net.Common/2.29.0": {
+    "Grpc.Net.Common/2.34.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-7Jxd1HFG2fzK2Q8Kf33/G79weBFto4pBerYU+NWV93cUr5W6WI1cne/9D3t9fFs0fgaboX8pUzVvfoGL39GVqw==",
-      "path": "grpc.net.common/2.29.0",
-      "hashPath": "grpc.net.common.2.29.0.nupkg.sha512"
+      "sha512": "sha512-dxVKzogjSejTV0hGeL61fmw6BSzF5uW4PBDWnx8LJFn41drgIPIXOoCJVqSAZ39lkGjTZlxtcwV5Vy6zqTf5Gw==",
+      "path": "grpc.net.common/2.34.0",
+      "hashPath": "grpc.net.common.2.34.0.nupkg.sha512"
     },
-    "Grpc.Tools/2.30.0": {
+    "Grpc.Tools/2.34.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ObXaZFLTH8Bhzy2Qu0OeLiAT7y0l1MVGzdMiRUGaeBMixtKTozVYdRMX2jozikt7H3ZsAadBnaelKba3sdJlKQ==",
-      "path": "grpc.tools/2.30.0",
-      "hashPath": "grpc.tools.2.30.0.nupkg.sha512"
+      "sha512": "sha512-klDiY8Xv/VYxK4sLzqGRm3NOXf0IpCsM456g4175qWl/omg8h117Eqiq3ZtywtBAhyDLiLiJAhy9rb/tq9yvXQ==",
+      "path": "grpc.tools/2.34.0",
+      "hashPath": "grpc.tools.2.34.0.nupkg.sha512"
     },
-    "MessagePack/2.1.152": {
+    "MessagePack/2.2.85": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-PlJ31qf42uGuJfwc61x/Pt4hJi01xh1rrBofj1MJSLzEot/2UAIRdSgxEHN/8qou5CV8OBeDM9HXKPi1Oj8rpQ==",
-      "path": "messagepack/2.1.152",
-      "hashPath": "messagepack.2.1.152.nupkg.sha512"
+      "sha512": "sha512-3SqAgwNV5LOf+ZapHmjQMUc7WDy/1ur9CfFNjgnfMZKCB5CxkVVbyHa06fObjGTEHZI7mcDathYjkI+ncr92ZQ==",
+      "path": "messagepack/2.2.85",
+      "hashPath": "messagepack.2.2.85.nupkg.sha512"
     },
-    "MessagePack.Annotations/2.1.152": {
+    "MessagePack.Annotations/2.2.85": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-RONktDA/HA641ds/2bfOqYSVew8o8EJMcQ1P4M1J77QGgbzWiWt3nBHvCAwlx0VfO6K9S8xq4b5OLD2CUnhtCg==",
-      "path": "messagepack.annotations/2.1.152",
-      "hashPath": "messagepack.annotations.2.1.152.nupkg.sha512"
+      "sha512": "sha512-YptRsDCQK35K5FhmZ0LojW4t8I6DpetLfK5KG8PVY2f6h7/gdyr8f4++xdSEK/xS6XX7/GPvEpqszKVPksCsiQ==",
+      "path": "messagepack.annotations/2.2.85",
+      "hashPath": "messagepack.annotations.2.2.85.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
       "type": "package",
@@ -332,6 +334,13 @@
       "sha512": "sha512-pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
       "path": "newtonsoft.json/12.0.1",
       "hashPath": "newtonsoft.json.12.0.1.nupkg.sha512"
+    },
+    "System.Collections.Immutable/1.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EXKiDFsChZW0RjrZ4FYHu9aW6+P4MCgEDCklsVseRfhoO0F+dXeMSsMRAlVXIo06kGJ/zv+2w1a2uc2+kxxSaQ==",
+      "path": "system.collections.immutable/1.5.0",
+      "hashPath": "system.collections.immutable.1.5.0.nupkg.sha512"
     },
     "System.Diagnostics.DiagnosticSource/4.5.1": {
       "type": "package",

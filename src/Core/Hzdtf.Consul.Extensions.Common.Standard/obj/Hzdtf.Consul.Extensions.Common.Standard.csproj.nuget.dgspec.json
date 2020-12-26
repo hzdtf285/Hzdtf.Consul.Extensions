@@ -48,7 +48,7 @@
             },
             "MessagePack": {
               "target": "Package",
-              "version": "[2.1.152, )"
+              "version": "[2.2.85, )"
             },
             "Microsoft.Extensions.Caching.Memory": {
               "target": "Package",

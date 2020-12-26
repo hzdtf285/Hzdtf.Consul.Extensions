@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "cfUu+MeJcrB1AMl69kMJdtN6dy5Bsu/oDRbDWYaAyowgOxMqE0X8wOIu3sqn8cve36UurIiXRy+EBid5SttOCg==",
+  "dgSpecHash": "b7exwZEwS6/HZs/q1KljlBPJ4eDpA+oxJtVMu0XwSm+VLrV72Um+kjjnif1RLP0caIA+34JgqjxSiMuU4kFtiQ==",
   "success": true,
   "projectFilePath": "F:\\MyWorks\\net2\\Hzdtf.Consul.Extensions\\src\\Core\\Hzdtf.Consul.Extensions.Common.Standard\\Hzdtf.Consul.Extensions.Common.Standard.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\huangzd\\.nuget\\packages\\consul\\1.6.1.1\\consul.1.6.1.1.nupkg.sha512",
-    "C:\\Users\\huangzd\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
-    "C:\\Users\\huangzd\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
+    "C:\\Users\\huangzd\\.nuget\\packages\\messagepack\\2.2.85\\messagepack.2.2.85.nupkg.sha512",
+    "C:\\Users\\huangzd\\.nuget\\packages\\messagepack.annotations\\2.2.85\\messagepack.annotations.2.2.85.nupkg.sha512",
     "C:\\Users\\huangzd\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.0.0\\microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
     "C:\\Users\\huangzd\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
     "C:\\Users\\huangzd\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.5\\microsoft.extensions.caching.abstractions.3.1.5.nupkg.sha512",
@@ -21,6 +21,7 @@
     "C:\\Users\\huangzd\\.nuget\\packages\\newtonsoft.json\\10.0.3\\newtonsoft.json.10.0.3.nupkg.sha512",
     "C:\\Users\\huangzd\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
     "C:\\Users\\huangzd\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.collections.immutable\\1.5.0\\system.collections.immutable.1.5.0.nupkg.sha512",
     "C:\\Users\\huangzd\\.nuget\\packages\\system.collections.nongeneric\\4.3.0\\system.collections.nongeneric.4.3.0.nupkg.sha512",
     "C:\\Users\\huangzd\\.nuget\\packages\\system.collections.specialized\\4.3.0\\system.collections.specialized.4.3.0.nupkg.sha512",
     "C:\\Users\\huangzd\\.nuget\\packages\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",

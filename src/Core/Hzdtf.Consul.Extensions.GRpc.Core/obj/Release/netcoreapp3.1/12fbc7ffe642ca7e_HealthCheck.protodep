@@ -1,2 +1,2 @@
-obj\Release\netcoreapp3.1/HealthCheck.cs \
-obj\Release\netcoreapp3.1/HealthCheckGrpc.cs: Protos/HealthCheck.proto
+obj\Release\netcoreapp3.1\Protos/HealthCheck.cs \
+obj\Release\netcoreapp3.1\Protos/HealthCheckGrpc.cs: Protos/HealthCheck.proto

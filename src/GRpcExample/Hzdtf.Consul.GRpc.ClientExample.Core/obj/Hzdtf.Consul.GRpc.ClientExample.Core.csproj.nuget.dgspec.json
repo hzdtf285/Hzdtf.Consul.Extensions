@@ -48,7 +48,7 @@
             },
             "MessagePack": {
               "target": "Package",
-              "version": "[2.1.152, )"
+              "version": "[2.2.85, )"
             },
             "Microsoft.Extensions.Caching.Memory": {
               "target": "Package",
@@ -119,17 +119,17 @@
           "dependencies": {
             "Google.Protobuf": {
               "target": "Package",
-              "version": "[3.12.3, )"
+              "version": "[3.14.0, )"
             },
             "Grpc.Net.Client": {
               "target": "Package",
-              "version": "[2.29.0, )"
+              "version": "[2.34.0, )"
             },
             "Grpc.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.30.0, )"
+              "version": "[2.34.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
